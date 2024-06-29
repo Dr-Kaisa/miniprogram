@@ -1,0 +1,23 @@
+<map id="map"
+ longitude="{{longitude}}" 
+ latitude="{{latitude}}"
+  markers="{{markers}}" 
+  bindmarkertap="onMarkerTap"
+  polyline="{{polyline}}"
+  scale="{{scale}}" 
+  show-location 
+  style="width: {{mapw}}; height: {{maph}};">
+  <view class="search">
+    <input type="text" cursor-spacing="20" placeholder="请输入" bindinput="getWords" />
+    <button type="primary" bindtap="goSearch" formType="reset" size="small" button-hover="blue">搜索</button>
+  </view>
+  <view class="banner">
+    <view class="lead">
+      <button class="goLead" type="primary" bind:tap="goLead">导航</button>
+    </view>
+    <view class="star" bind:tap="setStar">
+      <image src="/assets/star.png"></image>
+    </view>
+  </view>
+
+</map>

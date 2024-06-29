@@ -1,0 +1,51 @@
+page{
+  background-color: #f4f4f4;
+}
+.title{
+  height: 20vh;
+  line-height: 20vh;
+  font-size: 60rpx;
+  display: flex;
+  justify-content: center;
+
+}
+.input-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+
+  view{
+    display: flex;
+    width: 80%;
+    padding: 16px;
+    background-color: #fff;
+    border-top: .5px solid rgba(0, 0, 0, 0.1);
+    border-bottom: .5px solid rgba(0, 0, 0, 0.1);
+    color: black;
+
+    .label {
+      width: 20%
+    }
+    .input {
+      flex: 1;
+    }
+  }
+}
+
+
+.login-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #1aad19;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  &:active {
+    background-color: #179b16;
+  }
+}
+
+

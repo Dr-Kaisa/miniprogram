@@ -1,0 +1,9 @@
+<scroll-view class="scroll-view" scroll-y="true" style="height: 300px;">
+  <block wx:for="{{mks}}" wx:key="id">
+    <view class="location-item">
+      <text>{{item.title}}</text>
+      <text>经度: {{item.longitude}}</text>
+      <text>纬度: {{item.latitude}}</text>
+    </view>
+  </block>
+</scroll-view>

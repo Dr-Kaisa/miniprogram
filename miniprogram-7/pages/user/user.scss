@@ -1,0 +1,51 @@
+page {
+  background-color: #f4f4f4;
+  font-size: 32rpx;
+
+  .head {
+    width: 100%;
+    height: 400rpx;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    image {
+      width: 200rpx;
+      height: 200rpx;
+      border-radius: 50%;
+      border: 10rpx solid rgba(0, 0, 0, 0.1);
+    }
+  }
+
+  .body {
+    background-color: #fff;
+    margin-top: 20rpx;
+
+    view {
+      height: 100rpx;
+      padding: 0 40rpx;
+      line-height: 100rpx;
+      text-align: left;
+      border-bottom: 1px solid #ebe0e0;
+
+
+      .arrow {
+        width: 100rpx;
+        height: 100rpx;
+        scale: 40%;
+        float: right;
+      }
+    }
+  }
+
+  .bottom {
+    background-color: #fff;
+    margin-top: 20rpx;
+    height: 100rpx;
+    padding: 0 40rpx;
+    line-height: 100rpx;
+    text-align: center;
+  }
+
+}

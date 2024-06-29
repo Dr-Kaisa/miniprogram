@@ -1,0 +1,20 @@
+<view class="head">
+  <image src="{{avatarPath}}" mode="" bind:tap="goLogin"/>
+  <text>{{userName}}</text>
+</view>
+
+<view class="body">
+<view class="favo" bind:tap="goFavo">
+    <text>收藏地址</text>
+    <image src="/assets/arrow.png" class="arrow" />
+</view>
+<view class="favo" bind:tap="goLink">
+    <text>联系作者</text>
+    <image src="/assets/arrow.png" class="arrow" />
+</view>
+
+</view>
+
+<view class="bottom" bind:tap="signOut">
+    <text>退出登录</text>
+</view>
